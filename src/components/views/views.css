@@ -1,0 +1,60 @@
+/* Generic Views Styling */
+
+.view-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.view-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.view-header h2 {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin: 0 0 0.25rem 0;
+}
+
+.view-header p {
+  font-size: 0.875rem;
+  color: #64748b;
+  margin: 0;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.25rem;
+}
+
+.team-card-inner {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.team-card-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.team-card-name {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.team-card-role {
+  font-size: 0.8125rem;
+  color: #64748b;
+}
+
+.team-card-email {
+  font-size: 0.75rem;
+  color: #94a3b8;
+}

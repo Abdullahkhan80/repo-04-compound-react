@@ -1,0 +1,123 @@
+/* Legacy Activity Feed Widget Styles */
+
+.legacy-activity-widget {
+  background-color: #ffffff;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  overflow: hidden;
+  font-family: inherit;
+}
+
+.legacy-activity-widget__header {
+  background-color: #f3f4f6;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.legacy-activity-widget__title {
+  font-size: 13px;
+  font-weight: 600;
+  color: #374151;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin: 0;
+}
+
+.legacy-activity-widget__count {
+  font-size: 11px;
+  background: #e5e7eb;
+  color: #4b5563;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.legacy-activity-widget__table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.legacy-activity-widget__table th {
+  background-color: #f9fafb;
+  color: #6b7280;
+  text-align: left;
+  padding: 6px 12px;
+  font-size: 11px;
+  font-weight: 600;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.legacy-activity-widget__table td {
+  padding: 8px 12px;
+  border-bottom: 1px solid #f3f4f6;
+  color: #1f2937;
+  vertical-align: top;
+}
+
+.legacy-activity-widget__table tr:last-child td {
+  border-bottom: none;
+}
+
+.legacy-activity-widget__type-tag {
+  display: inline-block;
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.legacy-activity-widget__type-tag--commit {
+  background-color: #e0e7ff;
+  color: #3730a3;
+}
+
+.legacy-activity-widget__type-tag--pull_request {
+  background-color: #fce7f3;
+  color: #831843;
+}
+
+.legacy-activity-widget__type-tag--deployment {
+  background-color: #d1fae5;
+  color: #065f46;
+}
+
+.legacy-activity-widget__type-tag--task_resolved {
+  background-color: #fef3c7;
+  color: #92400e;
+}
+
+.legacy-activity-widget__type-tag--release {
+  background-color: #ede9fe;
+  color: #5b21b6;
+}
+
+.legacy-activity-widget__user {
+  font-weight: 500;
+  color: #111827;
+}
+
+.legacy-activity-widget__project {
+  font-size: 11px;
+  color: #6b7280;
+}
+
+.legacy-activity-widget__time {
+  font-size: 11px;
+  color: #9ca3af;
+  white-space: nowrap;
+}
+
+.legacy-activity-widget__meta {
+  font-family: monospace;
+  font-size: 11px;
+  color: #4b5563;
+  background-color: #f3f4f6;
+  padding: 1px 4px;
+  border-radius: 3px;
+  margin-top: 2px;
+  display: inline-block;
+}
